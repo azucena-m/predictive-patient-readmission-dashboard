@@ -48,14 +48,15 @@ The model evaluates factors that drive patient returns. By analyzing the "Featur
 ├── database_and_simulation.py # ETL: Populates MySQL database
 ├── readmission_analysis.py    # ML: Trains model and generates report
 └── readmission_features.png   # Visualization of risk drivers
+```
 
 ---
 
-## ⚙️ Installation & Usage 
+### ⚙️ Installation & Usage 
 1. Clone this repository and navigate to the project 
 ```bash
 git clone [https://github.com/azucena-m/predictive-patient-readmission-dashboard.git]
-
+```
 2. Setup Credentials: Create a .env file and add your MySQL details:
 DB_USER=root
 DB_PASSWORD=your_password
